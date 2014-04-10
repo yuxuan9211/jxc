@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical"
+    >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_title"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notice_info_title"
+            android:textColor="#fff"
+            android:textSize="20sp"
+			android:layout_gravity="center"
+			android:paddingLeft="100dp"
+            />
+        <LinearLayout  
+        	android:layout_width="fill_parent"  
+        	android:layout_height="fill_parent" 
+        	android:gravity="right" >  
+           <ImageView
+	        android:id="@+id/back"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:layout_marginTop="15dp"
+	        android:contentDescription="@string/back"
+	        android:src="@drawable/back" />
+         </LinearLayout> 
+    </LinearLayout> 
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="@drawable/boxbj"
+        >    
+    <!-- 标题 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#D3D2D0"
+        android:orientation="horizontal" 
+		android:gravity="center"       
+        >
+        <TextView 
+			android:layout_width="wrap_content"
+           	android:layout_height="wrap_content"	            
+            android:textColor="#000000" 
+            android:text="好的习惯贵在坚持"
+            android:typeface="monospace"
+            android:textSize="20sp"
+            android:id="@+id/gonggao_title" />
+    </LinearLayout> 
+    <!-- 内容 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@drawable/personal_info_bg"
+        android:gravity="left"
+        android:layout_margin="20dp"
+        >
+		<ScrollView 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"		    
+		    >
+			<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+          	  	android:layout_margin="10dp"
+            	android:text="好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，将这个节约粮食的好习惯坚持了下好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，将这个节约粮食的好习惯坚持了下好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，将这个节约粮食的好习惯坚持了下好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，将这个节约粮食的好习惯坚持了下好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，将这个节约粮食的好习惯坚持了下好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，将这个节约粮食的好习惯坚持了下参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，将这个节约粮食的好习惯坚持了下将这个节约粮食的好习惯坚持了下来，次日下午“小树”又发出微博：“#小卫士晒光盘#光盘行动第二天，很棒，继续坚持哦！”2月4日下午的晚饭时间，“小树”儿子王嘉阳将一碗羊肉面吃的一干二净，“小树”也发微博：“#小卫士晒光盘#第三次晒光盘！今天是姥姥做的好吃的羊肉汤面条，好美味哦！我是星光幼儿园大二班的王嘉阳！” 好的习惯贵在坚持，网友“小树”的儿子王嘉阳连续三天晒出了自己的“光盘”，堪称“光盘达人”。2月1日当天网友“小树”发微博：“#小卫士晒光盘#我儿子今年5岁半了，吃饭前我告诉他浪费粮食非常可耻，并向他解释了好多小朋友都在参加光盘行动，小家伙果然把盘子吃光光了，光盘行动成功！要坚持哦！”而他和儿子也没有食言，将这个节约粮食的好习惯坚持了下来，次日下午“小树”又发出微博：“#小卫士晒光盘#光盘行动第二天，很棒，继续坚持哦！”2月4日下午的晚饭时间，“小树”儿子王嘉阳将一碗羊肉面吃的一干二净，“小树”也发微博：“#小卫士晒光盘#第三次晒光盘！今天是姥姥做的好吃的羊肉汤面条，好美味哦！我是星光幼儿园大二班的王嘉阳！” "
+            	android:textColor="#000000" 
+            	android:padding="10dp"
+            	android:id="@+id/gonggao_content"
+            />		    
+		</ScrollView>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

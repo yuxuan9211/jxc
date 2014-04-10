@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:stretchColumns="0,1,2,3,4"
+    >
+	<TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+      <TextView
+          android:id="@+id/item_name_delivery_form_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="left"
+          android:text="@string/dealer_contents"
+          android:textColor="#000000"
+          android:textSize="11sp"
+          android:ellipsize="end"
+          android:paddingTop="5dp"
+          android:paddingBottom="5dp" />
+
+      <TextView
+          android:id="@+id/item_name_delivery_form_price"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginLeft="4dp"
+          android:layout_marginRight="4dp"
+          android:gravity="left"
+          android:text="@string/start_time_contents"
+          android:textColor="#000000"
+          android:textSize="11sp"
+          android:paddingTop="5dp"
+          android:paddingBottom="5dp" />
+
+      <TextView
+          android:id="@+id/item_name_delivery_form_count"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginLeft="4dp"
+          android:layout_marginRight="4dp"
+          android:gravity="left"
+          android:text="@string/end_time_contents"
+          android:textColor="#000000"
+          android:textSize="11sp"
+          android:paddingTop="5dp"
+          android:paddingBottom="5dp" />
+	  <LinearLayout 
+	      android:orientation="horizontal"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      >
+      <EditText
+          android:id="@+id/item_name_delivery_form_count_confirm"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="left"          
+          android:paddingTop="5dp"
+          android:paddingBottom="5dp"
+          android:inputType="number"
+          android:hint="" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="left"
+          android:text="@string/xiang"
+          android:textColor="#000000"
+          android:textSize="11sp"
+          android:paddingTop="5dp"
+          android:paddingBottom="5dp" />
+      </LinearLayout>
+      </TableRow>
+</TableLayout>

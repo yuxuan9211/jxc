@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical"
+    >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_title"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20sp"
+			android:layout_gravity="center_vertical"
+			android:gravity="center"
+			android:id="@+id/chanpin_title"
+			android:ellipsize="end"
+			android:singleLine="true"
+			android:layout_weight="5"
+            /> 
+           <ImageView
+	        android:id="@+id/back"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:contentDescription="@string/back"
+	        android:layout_weight="2"
+	        android:layout_gravity="center_vertical"
+	        android:src="@drawable/back" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@drawable/personal_info_bg"
+        android:gravity="left"
+        android:layout_margin="20dp"
+        >
+
+        <!-- 产品名称 -->
+        <LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginTop="20dp"
+        	>
+            <TextView 
+                android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/product_name"
+	        	android:textColor="#000000"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="茅台酒"
+	        	android:textColor="#000000"
+	        	android:id="@+id/chanpin_title_text"
+                />            
+        </LinearLayout>
+        <!-- 价格 -->
+        <LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginTop="20dp"
+        	>
+            <TextView 
+                android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/price"
+	        	android:textColor="#000000"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="800元"
+	        	android:textColor="#000000"
+	        	android:id="@+id/chanpin_jg_text"
+                />            
+        </LinearLayout>        
+        <!-- 照片 -->
+        <LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginTop="20dp"
+        	android:gravity="center"
+        	android:id="@+id/pic_layout_manager"
+        	>
+            <TextView 
+                android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/image"
+	        	android:textColor="#000000"
+                />
+            <!-- <ImageView
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="10dp"
+	       		android:contentDescription="@string/photo"
+	        	android:src="@drawable/mo1"
+	        	android:id="@+id/chanpin_pic"
+             /> -->
+        </LinearLayout> 
+      
+    </LinearLayout>
+    
+</LinearLayout>

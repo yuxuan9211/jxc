@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical"
+    >
+    
+   <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_title"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notice_list_title"
+            android:textColor="#fff"
+            android:textSize="20sp"
+			android:layout_gravity="center"
+			android:paddingLeft="100dp"
+            />
+        <LinearLayout  
+        	android:layout_width="fill_parent"  
+        	android:layout_height="fill_parent" 
+        	android:gravity="right" >  
+           <ImageView
+	        android:id="@+id/back"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:layout_marginTop="15dp"
+	        android:contentDescription="@string/back"
+	        android:src="@drawable/back" />
+         </LinearLayout> 
+    </LinearLayout> 
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="@drawable/boxbj"
+        android:paddingBottom="70dp"
+        >    
+    
+    <!-- 内容 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@drawable/personal_info_bg"
+        android:gravity="left"
+        android:layout_margin="20dp"
+        >
+		<ListView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/notice_list"
+            android:cacheColorHint="@null"
+            android:divider="#B4B4B4"
+            android:dividerHeight="0.8dip"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

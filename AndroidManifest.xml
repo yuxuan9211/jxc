@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kingtong.jxc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <!-- 获取网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
+	<!-- 访问精确位置的权限 -->  
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />  
+    <!-- 访问WIFI网络状态的权限 -->  
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />  
+    <!-- 改变WIFI网络状态的权限 -->  
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />  
+    <!-- 读写存储卡的权限 -->  
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />  
+    <!-- 读取电话状态的权限 -->  
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />  
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".activity.WelcomeTableActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.UserVisitActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+         <activity 
+            android:name=".activity.UserVisitInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+         <activity 
+            android:name=".activity.OrderFormActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name=".activity.ProductListActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name=".activity.OrderFormInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.DeliveryFormListActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name=".activity.DeliveryFormInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden" 
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.ComProductsActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name=".activity.DoingsInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.MerchantActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name=".activity.MerchantInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.NoticeActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name=".activity.NoticeInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+         <activity 
+            android:name=".activity.ProductActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name=".activity.ProductInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.PersonalInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.AddOrderActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.AddDoingsActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.AddOrderListActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".activity.AddDoingsListActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+    
+    </application>
+
+</manifest>

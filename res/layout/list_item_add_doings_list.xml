@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:stretchColumns="0,1,2,3,4"
+    >
+	<TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+      <TextView
+          android:id="@+id/item_name_doings_form_name"
+          android:layout_width="53dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:textColor="#000000"
+          android:textSize="11sp"
+          android:ellipsize="end"
+          android:singleLine="true"
+          android:paddingTop="5dp"
+          android:paddingRight="2dp"
+          android:paddingBottom="5dp" />
+
+      <TextView
+          android:id="@+id/item_name_doings_form_start"
+          android:layout_width="53dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:textColor="#000000"
+          android:textSize="11sp"
+          android:ellipsize="end"
+          android:singleLine="true"
+          android:paddingTop="5dp"
+          android:paddingRight="2dp"
+          android:paddingBottom="5dp" />
+
+      <TextView
+          android:id="@+id/item_name_doings_form_end"
+          android:layout_width="53dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:textColor="#000000"
+          android:textSize="11sp"
+          android:ellipsize="end"
+          android:singleLine="true"
+          android:paddingTop="5dp"
+          android:paddingRight="2dp"
+          android:paddingBottom="5dp" />
+
+     <TextView
+          android:id="@+id/item_name_doings_form_content"
+          android:layout_width="53dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:textColor="#000000"
+          android:textSize="11sp"
+          android:paddingTop="5dp"
+          android:ellipsize="end"
+          android:singleLine="true"
+          android:paddingRight="2dp"
+          android:paddingBottom="5dp" /> 
+
+      <TextView
+          android:id="@+id/item_name_doings_form_delete"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:textColor="#FF0000"
+          android:textSize="11sp"
+          android:paddingTop="5dp"
+          android:paddingRight="2dp"
+          android:paddingBottom="5dp" />      
+
+      </TableRow>
+</TableLayout>

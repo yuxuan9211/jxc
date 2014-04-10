@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <style name="main_tab_bottom">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>  
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dip</item>
+        <item name="android:button">@null</item>  
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:drawablePadding">2.0dip</item>
+        <item name="android:paddingTop">-5dip</item>
+    </style>
+     
+</resources> 

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical"
+    >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_title"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doings_list_title"
+            android:textColor="#fff"
+            android:textSize="20sp"
+			android:layout_gravity="center"
+			android:paddingLeft="100dp"
+			android:ellipsize="end"
+            />
+        <LinearLayout  
+        	android:layout_width="fill_parent"  
+        	android:layout_height="fill_parent" 
+        	android:gravity="right" >  
+           <ImageView
+	        android:id="@+id/back"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:layout_marginTop="15dp"
+	        android:contentDescription="@string/back"
+	        android:src="@drawable/back" />
+         </LinearLayout> 
+      </LinearLayout>
+    <!-- 竞品名称 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rect_gray"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        > 
+        <TextView 
+            android:layout_width="80dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/com_name"
+	        android:textColor="#000000"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:textSize="15sp" 
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="茅台酒"
+        	android:textColor="#000000"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:textSize="15sp" 
+            android:id="@+id/jingpin_title_text"
+            /> 
+    </LinearLayout>   
+    <!-- 列表 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@drawable/rect_gray"
+        android:gravity="left"
+        android:layout_margin="20dp"
+        >
+
+        <!-- content -->
+        <TableLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginTop="10dp"
+        	android:stretchColumns="0,1,2,3"
+        	android:gravity="center"
+        	>
+           <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            <TextView 
+                android:layout_width="100dp"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/dealer_contents"
+	        	android:textColor="#000000"
+                android:textSize="11sp"
+                android:layout_gravity="center"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/start_time_contents"
+	        	android:textColor="#000000"
+                android:layout_gravity="left"
+                android:typeface="monospace"
+                android:textSize="11sp"
+                />
+            <TextView 
+	        	android:layout_height="wrap_content"
+	        	android:layout_width="wrap_content"
+	        	android:text="@string/end_time_contents"
+	        	android:textColor="#000000"
+                android:layout_gravity="left"
+                android:typeface="monospace"
+                android:textSize="11sp"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/doings_content_contents"
+	        	android:textColor="#000000"
+                android:layout_gravity="left"
+                android:typeface="monospace"
+                android:textSize="11sp"              
+                />  
+            </TableRow>          
+        </TableLayout>
+        
+        <ListView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/doings_list"
+            android:cacheColorHint="@null"
+            android:divider="#B4B4B4"
+            android:dividerHeight="0.8dip"
+            android:layout_margin="10dp"            
+            />
+        
+    </LinearLayout>
+    
+</LinearLayout>
